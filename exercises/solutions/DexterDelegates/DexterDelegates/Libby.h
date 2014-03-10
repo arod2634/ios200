@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "Dexter.h"
 
+@class Dexter;
+
 @interface Libby : NSObject <DexterDelegate>
 
 - (void)dexterDidWhine:(Dexter *)dexter;

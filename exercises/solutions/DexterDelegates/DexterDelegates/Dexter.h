@@ -11,7 +11,7 @@
 
 @interface Dexter : NSObject
 
-@property (nonatomic, strong) id<DexterDelegate> delegate;
+@property (nonatomic, strong) id <DexterDelegate> delegate;
 
 - (void)hasToGoBathroom;
 - (void)isHungry;
